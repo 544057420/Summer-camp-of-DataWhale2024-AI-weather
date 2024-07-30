@@ -12,3 +12,5 @@ https://www.modelscope.cn/docs/%E9%A6%96%E9%A1%B5
 http://competition.sais.com.cn/competitionDetail/532234/format
 
 https://github.com/datawhalechina
+
+https://courses.d2l.ai/zh-v2/
