@@ -28,14 +28,18 @@
 
 ### 加深网络深度：原baseline只有一个卷积层（conv）对于特征提取和学习的能力不足
 
-LSTM类
+LSTM类<https://easyai.tech/ai-definition/lstm/>
 
-Transformer类
+Transformer与Attention类<https://easyai.tech/ai-definition/attention/>
 
-CNN类
+CNN类<https://easyai.tech/blog/illustrated-10-cnn-architectures/><https://easyai.tech/ai-definition/rnn/>
+
+门控循环单元（GRU - Gated Recurrent Unit）<>
+
+个人不推荐GNN类模型，其训练算力消耗与可解释性方面存在缺陷。但有超越Mamba架构的[Test-Time-Training layers，TTT模型]<https://mp.weixin.qq.com/s/Z8BVt7g6rnuAFzoca1fjfg>经过减枝后可能有更好表现。
 
 ### 数据压缩感知：
-  
+  <https://github.com/datawhalechina/awesome-compression>
   模型剪枝
   
   模型量化
@@ -46,7 +50,7 @@ CNN类
 
 ## 3. 定义损失函数, 优化器, 训练周期, 训练模型并保存模型参数
   
-  *通常Adam最优*
+  *许多部署场景下Adam最优*
 
 ### 常用的损失函数：
 
@@ -113,3 +117,6 @@ CNN类
     - Adam的变种，解决了Adam在非平稳目标问题上的收敛性问题。
 
 ## 4. 模型加载及推理(模型预测)，输入测试数据输出要提交的文件
+
+
+
