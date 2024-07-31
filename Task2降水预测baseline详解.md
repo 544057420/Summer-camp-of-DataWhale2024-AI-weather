@@ -36,10 +36,14 @@ CNN类<https://easyai.tech/blog/illustrated-10-cnn-architectures/><https://easya
 
 门控循环单元（GRU - Gated Recurrent Unit）<>
 
-个人不推荐GNN类模型，其训练算力消耗与可解释性方面存在缺陷。但有超越Mamba架构的[Test-Time-Training layers，TTT模型]<https://mp.weixin.qq.com/s/Z8BVt7g6rnuAFzoca1fjfg>经过减枝后可能有更好表现。
+个人不推荐GNN类模型，其训练算力消耗与可解释性方面存在缺陷。但有超越Mamba架构的[Test-Time-Training layers，TTT模型]<https://mp.weixin.qq.com/s/Z8BVt7g6rnuAFzoca1fjfg>
+
+经过减枝后可能有更好表现。
 
 ### 数据压缩感知：
   <https://github.com/datawhalechina/awesome-compression>
+  
+  
   模型剪枝
   
   模型量化
